@@ -1,0 +1,4 @@
+<input [(ngModel)]="something"  placeholder="something..."/>
+<button (click)="this.something = '';" [disabled]="this.something === ''">Clear</button>
+<p>something there : {{something}}</p>
+
